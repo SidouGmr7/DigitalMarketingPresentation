@@ -3,7 +3,7 @@ import NavbarItem from '../components/NavbarItem'
 
 const Navbar = () => {
   return (
-    <header className='fixed z-50 w-screen bg-gray-800 p-1 bg-opacity-95'>
+    <header className='fixed z-50 w-screen backdrop-blur-md bg-gray-800 p-1 bg-opacity-20'>
       <div className='md:flex  items-center justify-between'>
         <div className='flex items-center justify-center'>
           <div className='flex items-center gap-2'>

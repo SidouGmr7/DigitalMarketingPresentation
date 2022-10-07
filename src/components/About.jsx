@@ -3,7 +3,9 @@ import { motion } from 'framer-motion'
 
 const About = () => {
   return (
-    <div className='py-10 overflow-hidden scrollbar-hide  bg-slate-900' id='about'>
+    <div
+      className='py-10 overflow-hidden scrollbar-hide  bg-slate-900'
+      id='about'>
       <div className='flex md:flex-row flex-col items-center mt-20 mb-20 gap-10 md:gap-0'>
         <motion.div
           animate={{ x: 200, opacity: 0 }}
@@ -13,7 +15,7 @@ const About = () => {
             <div className='text-[#68fff1] capitalize text-6xl font-bold space-y-4'>
               <p>vous</p>
               <p>connecter</p>
-              <p className="text-4xl md:text-6xl">à votre public</p>
+              <p className='text-4xl md:text-6xl'>à votre public</p>
             </div>
           </div>
         </motion.div>
@@ -31,7 +33,7 @@ const About = () => {
           <Button
             Name='SAVOIR PLUS'
             Selector='#service'
-            BGC='bg-[#FFCC00] text-slate-900'
+            BGC='bg-[#68fff1] text-slate-900'
           />
         </motion.div>
       </div>
